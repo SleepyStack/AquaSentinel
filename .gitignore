@@ -3,10 +3,10 @@
 Thumbs.db
 
 # Node.js / Frontend dependencies
-/frontend/node_modules/
-/frontend/build/
-/frontend/dist/
-/frontend/.env
+/Frontend/node_modules/
+/Frontend/build/
+/Frontend/dist/
+/Frontend/.env
 
 # Logs
 *.log
@@ -19,38 +19,39 @@ yarn-error.log*
 .history/
 
 # IntelliJ IDEA
-/.idea/
-/*.iml
+/Backend/.idea/
+/Frontend/.idea/
+*.iml
 /out/
 /target/
 /*.ipr
 /*.iws
 
-# Spring Boot / Java
-/backend/target/
-/backend/build/
-/backend/*.log
+# Spring Boot / Java backend
+/Backend/target/
+/Backend/build/
+/Backend/*.log
 /*.class
 /*.jar
 /*.war
 /*.ear
 
 # Maven
-/backend/.mvn/
-!/backend/.mvn/wrapper/maven-wrapper.jar
-/backend/mvnw
-/backend/mvnw.cmd
-/backend/.settings/
-/backend/dependency-reduced-pom.xml
-/backend/release.properties
-/backend/backup.properties
-/backend/buildNumber.properties
+/Backend/.mvn/
+!/Backend/.mvn/wrapper/maven-wrapper.jar
+/Backend/mvnw
+/Backend/mvnw.cmd
+/Backend/.settings/
+/Backend/dependency-reduced-pom.xml
+/Backend/release.properties
+/Backend/backup.properties
+/Backend/buildNumber.properties
 
 # Gradle
-/backend/.gradle/
-/backend/build/
-/backend/gradlew
-/backend/gradlew.bat
+/Backend/.gradle/
+/Backend/build/
+/Backend/gradlew
+/Backend/gradlew.bat
 
 # Environment files
 *.env
@@ -59,7 +60,7 @@ yarn-error.log*
 *.env.test.local
 *.env.production.local
 
-# Misc
+# Misc caches and temp files
 .sass-cache/
 .cache/
 .idea_modules/
@@ -72,9 +73,9 @@ yarn-error.log*
 coverage/
 *.lcov
 
-# React Native specific
-/android/
-/ios/
+# React Native specific (if applicable)
+Android/
+Ios/
 .expo/
 
 # JetBrains IDEs other than IntelliJ
@@ -95,7 +96,7 @@ coverage/
 *.orig
 *.old
 
-# Compiled source #
+# Compiled source
 ###################
 *.com
 *.class
