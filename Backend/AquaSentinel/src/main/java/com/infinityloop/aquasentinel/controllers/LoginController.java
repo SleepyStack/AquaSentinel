@@ -20,7 +20,7 @@ public class LoginController {
         User user = new User();
         user.setName(registerUserRequest.getName());
         user.setEmail(registerUserRequest.getEmail());
-        user.setPassword(registerUserRequest.getPhoneNumber());
+        user.setPhoneNumber(registerUserRequest.getPhoneNumber());
         user.setPassword(registerUserRequest.getPassword());
         userService.createUser(user);
         return "User registered successfully";
