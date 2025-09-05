@@ -24,7 +24,7 @@ public class UserService {
         }
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         Authority prototypeAuthority = authorityRepository.findByAuthorityName("ROLE_ADMIN")
-                .orElseThrow(() -> new IllegalArgumentException("No ProtoType authority found"));
+                .orElseThrow(() -> new IllegalArgumentException("No ROLE_ADMIN authority found"));
 
         if (user.getAuthorities() == null) {
             user.setAuthorities(new java.util.HashSet<>());
