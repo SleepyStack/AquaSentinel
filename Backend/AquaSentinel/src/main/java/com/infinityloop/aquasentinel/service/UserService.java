@@ -31,7 +31,9 @@ public class UserService {
         }
         user.getAuthorities().add(prototypeAuthority);
         user.setVerificationStatus(UserStatus.VERIFIED);
-        user.setPreferredLanguage(PreferredLanguage.ENGLISH);
+        if(user.getPreferredLanguage() == null){
+            user.setPreferredLanguage(PreferredLanguage.ENGLISH.name());
+        }
         return userRepository.save(user);
     }
 }

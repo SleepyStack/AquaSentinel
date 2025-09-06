@@ -34,5 +34,5 @@ public class User {
     private Set<Authority> authorities;
 
     private UserStatus verificationStatus;
-    private PreferredLanguage preferredLanguage;
+    private String preferredLanguage;
 }
