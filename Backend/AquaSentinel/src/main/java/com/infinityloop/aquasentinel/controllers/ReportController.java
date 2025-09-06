@@ -24,4 +24,5 @@ public class ReportController {
     public Optional<HazardReport> getReport(int id) {
         return hazardReportService.getReport(id);
     }
+
 }
