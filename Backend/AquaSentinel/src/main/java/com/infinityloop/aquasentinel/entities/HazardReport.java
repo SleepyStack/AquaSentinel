@@ -18,6 +18,7 @@ public class HazardReport {
     private int id;
 
     private String geoTag;
+    private String hazardType;
     private String description;
     private String mediaUrl;
     private String timestamp;

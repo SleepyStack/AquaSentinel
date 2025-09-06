@@ -10,4 +10,9 @@ public class DemoController {
     public String demo(){
         return "Hello World";
     }
+
+    @GetMapping("/health")
+    public String health(){
+        return "HEALTHY AND RUNNING!";
+    }
 }
