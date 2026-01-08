@@ -1,8 +1,8 @@
 **Integrated Ocean Hazard Reporting & Social Analytics Platform**
 
-Welcome to the private development repository for AquaSentinel! This project enables disaster management agencies and coastal communities to report, analyze, and visualize ocean hazards in real time, combining citizen input with AI-powered social media analytics.
-This is the Initial Prototype Version, the project has been put to an halt for an indefinate amount of time, feel free to pursue further.
-
+Welcome to the private development repository for AquaSentinel Prototype! This project enables disaster management agencies and coastal communities to report, analyze, and visualize ocean hazards in real time, combining citizen input with AI-powered social media analytics.
+This is the Initial Prototype Version!
+Final Project has now been completed, might be made public soon if permitted.
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
